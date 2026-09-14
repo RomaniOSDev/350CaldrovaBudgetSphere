@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00917DDADCFC3F8DF330D477 /* MoneyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E853AF6D612F517615E8AF /* MoneyText.swift */; };
+		0098F6FA6F29AA96803AB702 /* GoldTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEE97246BCF56E64F5A64E /* GoldTicker.swift */; };
+		1F4CD4F0D10EE96ACD14EBB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9230B390CA7526A55D2C5EE /* SceneDelegate.swift */; };
+		2992DD4C44F8B64DBBDD2021 /* ExpenseEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE1EC4DFE9D430D09D523C /* ExpenseEditorSheet.swift */; };
+		2A2DC0B47FCABAB6D0553304 /* SpendInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A676BAEDF9A92A17E603AC6 /* SpendInsightsView.swift */; };
+		2F9015EB2050FDB2BAC958FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1EBE403AF9EBC559C4457D /* Assets.xcassets */; };
+		32FE6BF6F3D23F1F6AAB2E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F82FD09354BA1EDE1068C28 /* AppDelegate.swift */; };
+		3DF6D18AB9A18779BEC0C34A /* FocusClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4B06FC0C6152C762B7F2A /* FocusClockView.swift */; };
+		53D9EC7368EB2E9CF19CEC7B /* LedgerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CB9351F68513BCAF9A5D4F /* LedgerModels.swift */; };
+		54D81F7E07AF49814F904C48 /* LedgerPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829819E8F51B7F35D0D170A2 /* LedgerPlate.swift */; };
+		5B158382D0AD5AB7D6D5B324 /* LedgerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71255BBB5340F847329C4DA /* LedgerStore.swift */; };
+		5C7682010B22485EA96B32BB /* DutyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05761B2715DC64EAED139D6C /* DutyBoardView.swift */; };
+		7C077A9E7AC8EEE22BC65BA4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 930525C79D33FD16F5B361E5 /* PrivacyInfo.xcprivacy */; };
+		9CEB301880126C1DC4EF108A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB6BA1F62F6DCEC8378E284 /* LaunchScreen.storyboard */; };
+		A395F3F667B96D451662A4AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB19C055EDB8BCFAA90F68C8 /* Main.storyboard */; };
+		A41F8C2E91B0476D8E3A15C1 /* KeyboardFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F8C2E91B0476D8E3A15C0 /* KeyboardFold.swift */; };
+		A41F8C2E91B0476D8E3A15C3 /* LedgerStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F8C2E91B0476D8E3A15C2 /* LedgerStatsView.swift */; };
+		A41F8C2E91B0476D8E3A15D1 /* CuePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F8C2E91B0476D8E3A15D0 /* CuePlayer.swift */; };
+		A41F8C2E91B0476D8E3A15D3 /* RecurringEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F8C2E91B0476D8E3A15D2 /* RecurringEditorSheet.swift */; };
+		A41F8C2E91B0476D8E3A15D5 /* SavingsEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F8C2E91B0476D8E3A15D4 /* SavingsEditorSheet.swift */; };
+		A7EF9895F29A355282285B71 /* ScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3188B91494E1EF9DB7A311 /* ScreenBackground.swift */; };
+		C18BD94584258D3C360C14C2 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E462F88D5F73309B707FE /* AppLinks.swift */; };
+		C593D97773587DDCC2AB1269 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFB16874471127477DD848 /* ContentView.swift */; };
+		C986233C5F9C94EE85A0FBA5 /* LedgerVaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1745E0A6EF227B5D4930323 /* LedgerVaultView.swift */; };
+		EA7BCE47B2A8D5D9AC386801 /* SphereRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A79A7E7357DEDAE03C39939 /* SphereRing.swift */; };
+		F2046CE826580FEC2EA8030C /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CD64587D625969EFCE501 /* Palette.swift */; };
+		F3C95AB1A6CFAE1E5B81C09D /* DutyEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986D9C0A819A711FAE153712 /* DutyEditorSheet.swift */; };
+		F6A54DEEFFEB1C165FBA4065 /* GoldBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C78F4BE03E53F29089B61 /* GoldBanner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05761B2715DC64EAED139D6C /* DutyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyBoardView.swift; sourceTree = "<group>"; };
+		0A676BAEDF9A92A17E603AC6 /* SpendInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendInsightsView.swift; sourceTree = "<group>"; };
+		0F2E462F88D5F73309B707FE /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		0F7F4B4050D342C9A4E77525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A79A7E7357DEDAE03C39939 /* SphereRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereRing.swift; sourceTree = "<group>"; };
+		22930893B771B81336F249D7 /* 350CaldrovaBudgetSphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 350CaldrovaBudgetSphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5CD64587D625969EFCE501 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		410C78F4BE03E53F29089B61 /* GoldBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldBanner.swift; sourceTree = "<group>"; };
+		46CB9351F68513BCAF9A5D4F /* LedgerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerModels.swift; sourceTree = "<group>"; };
+		4F82FD09354BA1EDE1068C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EB6BA1F62F6DCEC8378E284 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		829819E8F51B7F35D0D170A2 /* LedgerPlate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerPlate.swift; sourceTree = "<group>"; };
+		84E853AF6D612F517615E8AF /* MoneyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyText.swift; sourceTree = "<group>"; };
+		86EEE97246BCF56E64F5A64E /* GoldTicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldTicker.swift; sourceTree = "<group>"; };
+		8BAFB16874471127477DD848 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		930525C79D33FD16F5B361E5 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		986D9C0A819A711FAE153712 /* DutyEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyEditorSheet.swift; sourceTree = "<group>"; };
+		A1745E0A6EF227B5D4930323 /* LedgerVaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerVaultView.swift; sourceTree = "<group>"; };
+		A41F8C2E91B0476D8E3A15C0 /* KeyboardFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFold.swift; sourceTree = "<group>"; };
+		A41F8C2E91B0476D8E3A15C2 /* LedgerStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerStatsView.swift; sourceTree = "<group>"; };
+		A41F8C2E91B0476D8E3A15D0 /* CuePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuePlayer.swift; sourceTree = "<group>"; };
+		A41F8C2E91B0476D8E3A15D2 /* RecurringEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurringEditorSheet.swift; sourceTree = "<group>"; };
+		A41F8C2E91B0476D8E3A15D4 /* SavingsEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsEditorSheet.swift; sourceTree = "<group>"; };
+		B8AE1EC4DFE9D430D09D523C /* ExpenseEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseEditorSheet.swift; sourceTree = "<group>"; };
+		C71255BBB5340F847329C4DA /* LedgerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerStore.swift; sourceTree = "<group>"; };
+		CF3188B91494E1EF9DB7A311 /* ScreenBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBackground.swift; sourceTree = "<group>"; };
+		D9230B390CA7526A55D2C5EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB19C055EDB8BCFAA90F68C8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ED1EBE403AF9EBC559C4457D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA4B06FC0C6152C762B7F2A /* FocusClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusClockView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8779C2BA2BFA581D3030E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		198F7BD2DFB5D0D1B20677D0 /* 350CaldrovaBudgetSphere */ = {
+			isa = PBXGroup;
+			children = (
+				25B34CC760E288EA9AF0F70B /* App */,
+				B2BCAF79920517B753EF75A8 /* Models */,
+				F94454CE54E588E44A0CAB61 /* Persistence */,
+				7F982E7CDD79ACA00E9381B3 /* Resources */,
+				B933F4080EC09EC64DF32493 /* Theme */,
+				FB3BD0321352F00CD7D42459 /* Utilities */,
+				BEECCB6AA37AA313B4130A81 /* Views */,
+			);
+			path = 350CaldrovaBudgetSphere;
+			sourceTree = "<group>";
+		};
+		25B34CC760E288EA9AF0F70B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4F82FD09354BA1EDE1068C28 /* AppDelegate.swift */,
+				0F7F4B4050D342C9A4E77525 /* Info.plist */,
+				5EB6BA1F62F6DCEC8378E284 /* LaunchScreen.storyboard */,
+				EB19C055EDB8BCFAA90F68C8 /* Main.storyboard */,
+				D9230B390CA7526A55D2C5EE /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7F982E7CDD79ACA00E9381B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED1EBE403AF9EBC559C4457D /* Assets.xcassets */,
+				930525C79D33FD16F5B361E5 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8F7F6C88C97835FEB14E4836 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				EEA4B06FC0C6152C762B7F2A /* FocusClockView.swift */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		9379B779373987F336D6C748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22930893B771B81336F249D7 /* 350CaldrovaBudgetSphere.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4C7A41EFE846CCE53CAE85 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				410C78F4BE03E53F29089B61 /* GoldBanner.swift */,
+				86EEE97246BCF56E64F5A64E /* GoldTicker.swift */,
+				829819E8F51B7F35D0D170A2 /* LedgerPlate.swift */,
+				1A79A7E7357DEDAE03C39939 /* SphereRing.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B2BCAF79920517B753EF75A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46CB9351F68513BCAF9A5D4F /* LedgerModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B933F4080EC09EC64DF32493 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				2F5CD64587D625969EFCE501 /* Palette.swift */,
+				CF3188B91494E1EF9DB7A311 /* ScreenBackground.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		BEECCB6AA37AA313B4130A81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F7F6C88C97835FEB14E4836 /* Clock */,
+				9C4C7A41EFE846CCE53CAE85 /* Components */,
+				D11D8D669F9BE90EADD7C241 /* Duties */,
+				D2B45161FF37A76CC8C9BF33 /* Spend */,
+				D7DF862A38103B288FF6E400 /* Vault */,
+				8BAFB16874471127477DD848 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D11D8D669F9BE90EADD7C241 /* Duties */ = {
+			isa = PBXGroup;
+			children = (
+				05761B2715DC64EAED139D6C /* DutyBoardView.swift */,
+				986D9C0A819A711FAE153712 /* DutyEditorSheet.swift */,
+			);
+			path = Duties;
+			sourceTree = "<group>";
+		};
+		D2B45161FF37A76CC8C9BF33 /* Spend */ = {
+			isa = PBXGroup;
+			children = (
+				B8AE1EC4DFE9D430D09D523C /* ExpenseEditorSheet.swift */,
+				A41F8C2E91B0476D8E3A15C2 /* LedgerStatsView.swift */,
+				A41F8C2E91B0476D8E3A15D2 /* RecurringEditorSheet.swift */,
+				A41F8C2E91B0476D8E3A15D4 /* SavingsEditorSheet.swift */,
+				0A676BAEDF9A92A17E603AC6 /* SpendInsightsView.swift */,
+			);
+			path = Spend;
+			sourceTree = "<group>";
+		};
+		D38ECEFDA2F2AFC1E65CC78B = {
+			isa = PBXGroup;
+			children = (
+				198F7BD2DFB5D0D1B20677D0 /* 350CaldrovaBudgetSphere */,
+				9379B779373987F336D6C748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7DF862A38103B288FF6E400 /* Vault */ = {
+			isa = PBXGroup;
+			children = (
+				A1745E0A6EF227B5D4930323 /* LedgerVaultView.swift */,
+			);
+			path = Vault;
+			sourceTree = "<group>";
+		};
+		F94454CE54E588E44A0CAB61 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				C71255BBB5340F847329C4DA /* LedgerStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		FB3BD0321352F00CD7D42459 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0F2E462F88D5F73309B707FE /* AppLinks.swift */,
+				A41F8C2E91B0476D8E3A15D0 /* CuePlayer.swift */,
+				A41F8C2E91B0476D8E3A15C0 /* KeyboardFold.swift */,
+				84E853AF6D612F517615E8AF /* MoneyText.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45ECAF744BD0266EBA4E33E8 /* 350CaldrovaBudgetSphere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB400CF09A2657FBA3533FF /* Build configuration list for PBXNativeTarget "350CaldrovaBudgetSphere" */;
+			buildPhases = (
+				B2ACE882C112DA5E18CCD5F2 /* Sources */,
+				B8779C2BA2BFA581D3030E7E /* Frameworks */,
+				4F5570FD2541536695EBFA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 350CaldrovaBudgetSphere;
+			productName = 350CaldrovaBudgetSphere;
+			productReference = 22930893B771B81336F249D7 /* 350CaldrovaBudgetSphere.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		795B424A78B8C25ABD13E602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					45ECAF744BD0266EBA4E33E8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F348247AFD6E4E90D6495B8A /* Build configuration list for PBXProject "350CaldrovaBudgetSphere" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D38ECEFDA2F2AFC1E65CC78B;
+			productRefGroup = 9379B779373987F336D6C748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45ECAF744BD0266EBA4E33E8 /* 350CaldrovaBudgetSphere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F5570FD2541536695EBFA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEB301880126C1DC4EF108A /* LaunchScreen.storyboard in Resources */,
+				A395F3F667B96D451662A4AB /* Main.storyboard in Resources */,
+				7C077A9E7AC8EEE22BC65BA4 /* PrivacyInfo.xcprivacy in Resources */,
+				2F9015EB2050FDB2BAC958FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2ACE882C112DA5E18CCD5F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FE6BF6F3D23F1F6AAB2E4A /* AppDelegate.swift in Sources */,
+				1F4CD4F0D10EE96ACD14EBB0 /* SceneDelegate.swift in Sources */,
+				53D9EC7368EB2E9CF19CEC7B /* LedgerModels.swift in Sources */,
+				5B158382D0AD5AB7D6D5B324 /* LedgerStore.swift in Sources */,
+				F2046CE826580FEC2EA8030C /* Palette.swift in Sources */,
+				A7EF9895F29A355282285B71 /* ScreenBackground.swift in Sources */,
+				C18BD94584258D3C360C14C2 /* AppLinks.swift in Sources */,
+				A41F8C2E91B0476D8E3A15C1 /* KeyboardFold.swift in Sources */,
+				A41F8C2E91B0476D8E3A15D1 /* CuePlayer.swift in Sources */,
+				00917DDADCFC3F8DF330D477 /* MoneyText.swift in Sources */,
+				3DF6D18AB9A18779BEC0C34A /* FocusClockView.swift in Sources */,
+				F6A54DEEFFEB1C165FBA4065 /* GoldBanner.swift in Sources */,
+				0098F6FA6F29AA96803AB702 /* GoldTicker.swift in Sources */,
+				54D81F7E07AF49814F904C48 /* LedgerPlate.swift in Sources */,
+				EA7BCE47B2A8D5D9AC386801 /* SphereRing.swift in Sources */,
+				C593D97773587DDCC2AB1269 /* ContentView.swift in Sources */,
+				5C7682010B22485EA96B32BB /* DutyBoardView.swift in Sources */,
+				F3C95AB1A6CFAE1E5B81C09D /* DutyEditorSheet.swift in Sources */,
+				2992DD4C44F8B64DBBDD2021 /* ExpenseEditorSheet.swift in Sources */,
+				2A2DC0B47FCABAB6D0553304 /* SpendInsightsView.swift in Sources */,
+				A41F8C2E91B0476D8E3A15C3 /* LedgerStatsView.swift in Sources */,
+				A41F8C2E91B0476D8E3A15D3 /* RecurringEditorSheet.swift in Sources */,
+				A41F8C2E91B0476D8E3A15D5 /* SavingsEditorSheet.swift in Sources */,
+				C986233C5F9C94EE85A0FBA5 /* LedgerVaultView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0EF0E149152694582C768F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FD6D7BA34C831DC6C92FDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85F86CE88CCC90B857BD0950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 350CaldrovaBudgetSphere/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Caldrova Budget Sphere";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jam.c6ldr0v3b8dg6tsph1r2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C06C9479DB8E7CB4F2946721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 350CaldrovaBudgetSphere/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Caldrova Budget Sphere";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jam.c6ldr0v3b8dg6tsph1r2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DB400CF09A2657FBA3533FF /* Build configuration list for PBXNativeTarget "350CaldrovaBudgetSphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F86CE88CCC90B857BD0950 /* Debug */,
+				C06C9479DB8E7CB4F2946721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F348247AFD6E4E90D6495B8A /* Build configuration list for PBXProject "350CaldrovaBudgetSphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD6D7BA34C831DC6C92FDF0 /* Debug */,
+				0EF0E149152694582C768F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 795B424A78B8C25ABD13E602 /* Project object */;
+}
